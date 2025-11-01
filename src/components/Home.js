@@ -1,8 +1,10 @@
 import React from "react";
+import "./Home.css"
 
 const Home = () => {
     return(
-        <div>
+        <div className="home-container">
+            <div className="content">
             <h1>I'm Chloe</h1>
             <h2>Welcome to My Website</h2>
             <p>
@@ -15,6 +17,7 @@ const Home = () => {
                 UVic. Explore my website to discover my academic clubs, projects, and the early creative designs that motivated 
                 me to become an engineer.
             </p>
+        </div>
         </div>
     );
 };
